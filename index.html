@@ -1,638 +1,537 @@
 <!doctype html>
 <html lang="zxx">
 
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Digital Kode</title>
-		<link rel="icon" href="img/favicon.png">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- animate CSS -->
-		<link rel="stylesheet" href="css/animate.css">
-		<!-- owl carousel CSS -->
-		<link rel="stylesheet" href="css/owl.carousel.min.css">
-		<!-- font awesome CSS -->
-		<link rel="stylesheet" href="css/all.css">
-		<!-- flaticon CSS -->
-		<link rel="stylesheet" href="css/flaticon.css">
-		<link rel="stylesheet" href="css/themify-icons.css">
-		<!-- font awesome CSS -->
-		<link rel="stylesheet" href="css/magnific-popup.css">
-		<!-- swiper CSS -->
-		<link rel="stylesheet" href="css/slick.css">
-		<!-- style CSS -->
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/aos.css">
-		<script src="js/aos.js"></script>
-		<script src="js/jquery-1.12.1.min.js"></script>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Digital Kode</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+</head>
 
-	</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <span class="box"></span>
+            <span class="box"></span>
+            <div class="code">
+                <img src="img/logo_light.png" width="120px">
+            </div>
+            <span class="txt">LOADING CODE...</span>
 
-	<body>
-		<!--<div class="preloader">
-	  <div class="loader">
-	  <span class="box"></span>
-	  <span class="box"></span>
-	  <div class="code">
-	  <img src="img/logo_light.png" width="120px">
-	  </div>
-	  <span class="txt">LOADING CODE...</span>
+        </div>
+    </div>
+    <script>
+        $('.preloader').delay(2000).fadeOut(500);
+    </script>
 
-	  </div>
-	  </div>
-	  <script>
-		  $(document).ready(function() {
-			$(window).load(function() {
-				$('.preloader').delay(2000).fadeOut(500);
-			})
-		})
-	  </script>
-	  -->
-	  <!--::header part start::-->
-	  <header class="main_menu">
-		  <div class="container">
-			  <div class="row align-items-center">
-				  <div class="col-lg-12">
-					  <nav class="navbar navbar-expand-lg navbar-light">
-						  <a class="navbar-brand main_logo" href="index.html"> <img src="img/logo.png" width="250px" alt="logo"> </a>
-						  <a class="navbar-brand single_page_logo" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
-						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							  <span class="menu_icon"></span>
-						  </button>
+    <!--::header part start::-->
+    <header class="main_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand main_logo" href="index.html"> <img src="img/logo.png" width="250px" alt="logo"> </a>
+                        <a class="navbar-brand single_page_logo" href="index.html"> <img src="img/logo.png" style="padding-bottom:30px;" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="menu_icon"></span>
+						</button>
+                        <div class="collapse navbar-collapse main-menu-item" style="" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#service">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#portofolio">Portofolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#team">Our Team</a>
+                                </li>
 
-						  <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
-							  <ul class="navbar-nav">
-								  <li class="nav-item">
-									  <a class="nav-link" href="#home">Home</a>
-								  </li>
-								  <li class="nav-item">
-									  <a class="nav-link" href="#service">Services</a>
-								  </li>
-								  <li class="nav-item">
-									  <a class="nav-link" href="#portofolio">Portofolio</a>
-								  </li>
-								  <li class="nav-item">
-									  <a class="nav-link" href="#team">Our Team</a>
-								  </li>
+                            </ul>
+                        </div>
+                        <a href="#team" class="d-none d-sm-block btn_1 home_page_btn" style="color:white; border-color: white;">Hire Us !</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--::Header part end::-->
 
-							  </ul>
-						  </div>
-						  <a href="#team" class="d-none d-sm-block btn_1 home_page_btn" style="color:white; border-color: white;">Hire Us !</a>
-					  </nav>
-				  </div>
-			  </div>
-		  </div>
-	  </header>
-	  <!--::Header part end::-->
+    <!--::banner part start::-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5">
 
-	  <!--::banner part start::-->
-	  <section class="banner_part">
-		  <div class="container">
-			  <div class="row align-items-center justify-content-between">
-				  <div class="col-lg-5">
+                    <div class="banner_img d-lg-block">
+                        <img src="img/banner_img.png" alt="" style="margin-bottom:-350px;" width="65%">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h1 style="color:white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2200">Creating a Dream in the Digital World</h1>
+                            <p style="color:white;font-size:16px;" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2500">Digital Kode Seeks to Realize Various Kinds of Dreams Unreached in the Digital World.
+                            </p>
+                            <a href="#" class="btn_2" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img id="home" style="margin-left:250px;margin-bottom:-100px;" src="img/video-image.png" width="400px" alt="">
+    </section>
+    <!--::banner part start::-->
+    <div class="container">
+        <div class="home">
+            <div class="row">
+                <div class="col-md-9 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <h2>What Is</h2>
+                    <h1><b>Digital</b> Kode</h1>
+                    <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
+                    <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation3">
+                    <p style="font-size:16px;">Digital Kode Is A Startup That Is Engaged In Information Technology.</p>
+                    <p style="font-size:16px;">Helping Businesses To Realize and Digitize Business Into Business 4.0</p>
+                </div>
+                <div class="col-md-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                    <center><img src="img/logo_square_dark.png" alt="" width="170px"></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--::use sasu part end::-->
+    <section class="use_sasu padding_top" style="background:linear-gradient(to bottom left,dodgerblue,darkviolet,deeppink);padding-bottom:150px;">
+        <div class="container">
+            <div data-aos="fade-down" style="margin-bottom: 100px;">
+                <center>
+                    <h1 style="color:white;">Our Services !</h1>
+                    <p style="color: white;font-size: 16px;">Digital Kode Provides Various Service Types And Services. From Making Applications to Websites, Everything is Here!</p>
+                </center>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_feature">
+                        <div class="single_feature_part" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="img/icon/service-1.png" width="80px" alt="">
+                            <h4 style="color:white">Mobile Development</h4>
+                            <p style="color:white;">We're Making A Mobile Apps That run On Almost Every Android Platform, Fast and Efficient To Your Business.</p>
+                        </div>
+                    </div>
+                </div>
 
-					  <div class="banner_img d-none d-lg-block">
-						  <img src="img/banner_img.png" alt="">
-					  </div>
-				  </div>
-				  <div class="col-lg-6">
-					  <div class="banner_text">
-						  <div class="banner_text_iner">
-							  <h1 style="color:white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2200">Creating a Dream in the Digital World</h1>
-							  <p style="color:white;" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2500">Digital Kode Seeks to Realize Various Kinds of Dreams Unreached in the Digital World.
-							  </p>
-							  <a href="#" class="btn_2" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">Learn More</a>
-						  </div>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-		  <img id="home" style="margin-left:250px;margin-bottom:-100px;" src="img/video-image.png" width="400px" alt="">
-	  </section>
-	  <!--::banner part start::-->
-	  <div class="container">
-		  <div class="home">
-			  <div class="row">
-				  <div class="col-md-9 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-					  <h2>What Is</h2>
-					  <h1><b>Digital</b> Kode</h1>
-					  <p>Digital Kode Is A Startup That Is Engaged In Information Technology.</p>
-					  <p>Helping Businesses To Realize and Digitize Business Into Business 4.0</p>
-				  </div>
-				  <div class="col-md-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300"><img src="img/logo_square_dark.png" alt="" width="200px"></div>
-			  </div>
-		  </div>
-	  </div>
-	  <!--::use sasu part end::-->
-	  <section class="use_sasu padding_top" style="background:linear-gradient(to bottom left,dodgerblue,darkviolet,deeppink);padding-bottom:150px;">
-		  <div class="container">
-			  <div data-aos="fade-down" style="margin-bottom: 100px;">
-				  <center>
-					  <h1 style="color:white;">Our Services !</h1>
-					  <p style="color: white;font-size: 16px;">Digital Kode Provides Various Service Types And Services. From Making Applications to Websites, Everything is Here!</p>
-				  </center>
-			  </div>
-			  <div class="row justify-content-center">
-				  <div class="col-lg-4 col-sm-6">
-					  <div class="single_feature">
-						  <div class="single_feature_part" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-							  <img src="img/icon/service-1.png" width="80px" alt="">
-							  <h4 style="color:white">Mobile Development</h4>
-							  <p style="color:white;">We're Making A Mobile Apps That run On Almost Every Android Platform, Fast and Efficient To Your Business.</p>
-						  </div>
-					  </div>
-				  </div>
-				  <div class="col-lg-4 col-sm-6">
-					  <div class="single_feature">
-						  <div class="single_feature_part" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="600">
-							  <img src="img/icon/service-2.png" width="80px" alt="">
-							  <h4 style="color:white">Web Development</h4>
-							  <p style="color:white">We're Making A Website To Introduce Your Business To The World, It's Fastest And Best To Promote Your Business.</p>
-						  </div>
-					  </div>
-				  </div>
-				  <div class="col-lg-4 col-sm-6">
-					  <div class="single_feature">
-						  <div class="single_feature_part" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-							  <img src="img/icon/service-3.png" width="80px" alt="">
-							  <h4 style="color:white">SEO</h4>
-							  <p style="color:white">SEO Is A Google Index Contest That Make A Website On Top of Other Website, It's Very Effective To Net A Whole Internet Users.</p>
-						  </div>
-					  </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_feature">
+                        <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_1 custom-animation3">
+                        <div class="single_feature_part" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="600">
+                            <img src="img/icon/service-2.png" width="80px" alt="">
+                            <h4 style="color:white">Web Development</h4>
+                            <p style="color:white">We're Making A Website To Introduce Your Business To The World, It's Fastest And Best To Promote Your Business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_feature">
+                        <div class="single_feature_part" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="img/icon/service-3.png" width="80px" alt="">
+                            <h4 style="color:white">SEO</h4>
+                            <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_1 custom-animation4">
+                            <p style="color:white">SEO Is A Google Index Contest That Make A Website On Top of Other Website, It's Very Effective To Net A Whole Internet Users.</p>
+                        </div>
+                    </div>
 
-				  </div>
-			  </div>
-		  </div>
-		  <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_1 custom-animation1">
-	  </section>
-	  <!--::use sasu part end::-->
+                </div>
+            </div>
+        </div>
+        <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_1 custom-animation1">
+    </section>
+    <!--::use sasu part end::-->
 
-	  <!--::about_us part start::-->
-	  <section class="about_us section_padding" id="service">
-		  <div class="container">
-			  <div class="row align-items-center justify-content-between">
-				  <div class="col-md-6 col-lg-5">
-					  <div class="about_us_text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-						  <h2>Easy To <br> Access <b>Social Media</b></h2>
-						  <p>All Programs And Website That We Made Is Well-integrated With Almost Every Social Media Plugin, Such As Facebook,Instagram And Other Social Media<br>Make You Easier To Promote and Share Something On Your Website To Your Friend</p>
-						  <a href="#" class="btn_2">Let's Make It !</a>
-					  </div>
-				  </div>
-				  <div class="col-md-6 col-lg-6">
-					  <div class="learning_img">
-						  <img src="img/about_img.png" alt="">
-					  </div>
-				  </div>
-			  </div>
-		  </div>
+    <!--::about_us part start::-->
+    <section class="about_us section_padding" id="service">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-5">
+                    <div class="about_us_text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <h2 style="font-size:36px; margin-top: 50px;">Easy To <br> Access <b>Social Media</b></h2>
+                        <p style="font-size:16px;">All Programs And Website That We Made Is Well-integrated With Almost Every Social Media Plugin, Such As Facebook,Instagram And Other Social Media<br>Make You Easier To Promote and Share Something On Your Website To Your Friend</p>
+                        <a href="#" class="btn_2">Let's Make It !</a>
+                        <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_img">
+                        <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation4">
+                        <img src="img/about_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	  </section>
-	  <!--::about_us part end::-->
+    </section>
+    <!--::about_us part end::-->
 
-	  <!--::about_us part start::-->
-	  <section class="about_us right_time" style="background:linear-gradient(to bottom right,dodgerblue,darkviolet,deeppink);padding:50px;">
-		  <div class="container">
-			  <div class="row align-items-center justify-content-between">
-				  <div class="col-md-6 col-lg-6">
-					  <div class="learning_img">
-						  <img src="img/1.png" alt="">
-					  </div>
-				  </div>
-				  <div class="col-md-6 col-lg-5">
-					  <div class="about_us_text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+    <!--::about_us part start::-->
+    <section class="about_us right_time" style="background:linear-gradient(to bottom right,dodgerblue,darkviolet,deeppink);padding:50px;">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_img">
+                        <img src="img/1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="about_us_text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_2 custom-animation2">
+                        <h2 style="color: white;font-size:36px;">It's Really Powerful SEO</h2>
+                        <p style="color:white;font-size:16px;">With Our Best SEO Services We'll Try And Struggle To Make Your Website On Top of Google List !<br> It Was So Efficient To Make Users Come To You And Make a Great Traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
+    </section>
 
-						  <h2 style="color: white">It's Really Powerful SEO</h2>
-						  <p style="color:white;">With Our Best SEO Services We'll Try And Struggle To Make Your Website On Top of Google List !<br> It Was So Efficient To Make Users Come To You And Make a Great Traffic.</p>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-		  <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
-	  </section>
+    <!---------------------------------------------------->
 
-	  <!---------------------------------------------------->
+    <section class="review_part padding_bottom" style="margin-top:100px;">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
 
-	  <section class="review_part padding_bottom" style="margin-top:100px;">
-		  <div class="container">
-			  <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 col-lg-5">
+                    <div class="review_slider owl-carousel" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="review_part_text">
+                            <h2 style="font-size:36px;">Using The <b>Best Technology</b></h2>
+                            <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
+                            <p>All The Programs That We Made Using The Best Technology And Framework. Such As Vue,Angular,Laravel,Codeigniter,Node And Other Technologies</p>
+                            <h3>Dihak M N A <span>CEO of Digital Kode</span> </h3>
+                        </div>
+                        <div class="review_part_text">
+                            <h2 style="font-size:36px;">Using The <b>Best Technology</b></h2>
+                            <p>All The Programs That We Made Using The Best Technology And Framework. Such As Vue,Angular,Laravel,Codeigniter,Node And Other Technologies</p>
+                            <h3>Dihak M N A <span>CEO of Digital Kode</span> </h3>
+                        </div>
+                        <div class="review_part_text">
+                            <img src="img/animate_icon/Ellipse_6.png" alt="" class="feature_icon_2 custom-animation1">
+                            <h2 style="font-size:36px;">Using The <b>Best Technology</b></h2>
+                            <p>All The Programs That We Made Using The Best Technology And Framework. Such As Vue,Angular,Laravel,Codeigniter,Node And Other Technologies</p>
+                            <h3>Dihak M N A <span>CEO of Digital Kode</span> </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="review_img">
+                        <img src="img/animate_icon/Ellipse_4.png" alt="" class="feature_icon_2 custom-animation3">
+                        <img src="img/devoted-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <center>
+                <h1 style="margin-bottom:30px;">Our <b>Technologies</b></h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-md-3"><img src="img/laravel.png" width="100%" alt=""></div>
+                <div class="col-md-3"><img src="img/angular.jpg" width="100%" alt=""></div>
+                <div class="col-md-3"><img src="img/node.png" width="100%" alt=""></div>
+                <div class="col-md-3"><img src="img/vue.png" width="100%" alt=""></div>
+            </div>
+        </div>
+        <img src="img/animate_icon/Ellipse_4.png" alt="" class="feature_icon_2 custom-animation2">
 
-				  <div class="col-md-6 col-lg-5">
-					  <div class="review_slider owl-carousel" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-						  <div class="review_part_text">
-							  <h2>Using The <b>Best Technology</b></h2>
-							  <p>All The Programs That We Made Using The Best Technology And Framework. Such As Vue,Angular,Laravel,Codeigniter,Node And Other Technologies</p>
-							  <h3>Dihak M N A <span>CEO of Digital Kode</span> </h3>
-						  </div>
-						  <div class="review_part_text">
-							  <h2>Using The <b>Best Technology</b></h2>
-							  <p>All The Programs That We Made Using The Best Technology And Framework. Such As Vue,Angular,Laravel,Codeigniter,Node And Other Technologies</p>
-							  <h3>Dihak M N A <span>CEO of Digital Kode</span> </h3>
-						  </div>
-						  <div class="review_part_text">
-							  <h2>Using The <b>Best Technology</b></h2>
-							  <p>All The Programs That We Made Using The Best Technology And Framework. Such As Vue,Angular,Laravel,Codeigniter,Node And Other Technologies</p>
-							  <h3>Dihak M N A <span>CEO of Digital Kode</span> </h3>
-						  </div>
-					  </div>
+    </section>
+    <div id="counter" style="background:linear-gradient(to right, dodgerblue,darkviolet,deeppink);padding:80px;">
+        <div class="row">
+            <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_2 custom-animation2">
+            <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <h1 style="color:white;">25</h1>
+                <h3 style="color:white;">Clients</h3>
+            </div>
+            <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <h1 style="color:white;">46</h1>
+                <h3 style="color:white;">Projects</h3>
+            </div>
+            <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
+                <h1 style="color:white;">7</h1>
+                <h3 style="color:white;">Members</h3>
+                <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation3">
+            </div>
+        </div>
+    </div>
+    <!--::about_us part end::-->
 
-				  </div>
-				  <div class="col-md-6 col-lg-6">
-					  <div class="review_img">
-						  <img src="img/devoted-1.png" alt="">
-					  </div>
-				  </div>
-			  </div>
-		  </div>
+    <div class="container text-center" id="portofolio" data-aos="fade-up" data-aos-duration="1000" style="margin-top:70px;">
+        <h1 style="font-weight: bold;font-size:48px;"><b>Karya</b></h1>
+        <h3 style="font-size: 16px;margin-bottom:50px;">Digital Kode Telah Menyelesaikan Banyak Karya, Salah Satu nya adalah Project Yang Ada Di Bawah ini !</h3>
+        <!--Carousel Wrapper-->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(img/portofolio/1.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/2.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/3.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/4.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/5.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/6.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/7.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/8.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/9.png)"></div>
+                <div class="swiper-slide" style="background-image:url(img/portofolio/10.png)"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--::subscribe us part end::-->
 
-		  <img src="img/animate_icon/Ellipse_4.png" alt="" class="feature_icon_2 custom-animation2">
+        <!--::subscribe us part end::-->
+        <div class="container" style="margin-top:200px;" id="team">
+            <div class="heading-title text-center">
+                <h1 style="font-weight: bold">Our <b>Best Professionals !</b> </h1>
+                <p style="font-size:16px;">Introducing Our Leader And Best Engineer, Let's Have A great Coffee With Them. We'll Always Waiting You For Contacting Us.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="img/fliw.jpg" width="400px" height="300px" alt="team member" class="img-responsive">
+                        </div>
+                        <div class="team-hover">
+                            <div class="desk">
+                                <h4>Hi Everyone !</h4>
+                                <p>My Name is Muhammad Rafly Indrawan, I'm Co-Founder of Digital Kode And Website Developer !</p>
+                            </div>
+                            <div class="s-link">
+                                <a href="http://www.facebook.com/Fliw.id"><i class="fa fa-facebook"></i></a>
+                                <a href="http://wa.me/+628381094983"><i class="fa fa-whatsapp"></i></a>
+                                <a href="http://www.github.com/Fliw"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-title">
+                        <h5>Muhammad Rafly Indrawan</h5>
+                        <span>Co-Founder</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="img/dihak.jpg" width="400px" height="300px" alt="team member" class="img-responsive">
+                        </div>
+                        <div class="team-hover">
+                            <div class="desk">
+                                <h4>Hello There</h4>
+                                <p>My Name is Dihak MNA, I'm CEO of Digital Kode And Fullstack Website Developer !</p>
+                            </div>
+                            <div class="s-link">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-title">
+                        <h5>Dihak M N A</h5>
+                        <span>Founder & CEO </span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="img/fuad.jpg" width="400px" height="300px" alt="team member" class="img-responsive">
+                        </div>
+                        <div class="team-hover">
+                            <div class="desk">
+                                <h4>Nice To Meet You</h4>
+                                <p>My Name is Muhammad Nur Fuad, I'm Expert At React.js And Linux Lover Especially Arch Linux !</p>
+                            </div>
+                            <div class="s-link">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-title">
+                        <h5>Muhammad Nur Fuad</h5>
+                        <span>Frontend Developer Expert</span>
+                    </div>
+                </div>
 
-	  </section>
-	  <div id="counter" style="background:linear-gradient(to right, dodgerblue,darkviolet,deeppink);padding:80px;">
-		  <div class="row">
-			  <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-				  <h1 style="color:white;">25</h1>
-				  <h3 style="color:white;">Clients</h3>
-			  </div>
-			  <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
-				  <h1 style="color:white;">46</h1>
-				  <h3 style="color:white;">Projects</h3>
-			  </div>
-			  <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
-				  <h1 style="color:white;">7</h1>
-				  <h3 style="color:white;">Members</h3>
-			  </div>
-		  </div>
-	  </div>
-	  <!--::about_us part end::-->
+            </div>
 
-	  <div class="container text-center" id="portofolio" data-aos="fade-up" data-aos-duration="1000" style="margin-top:70px;">
-		  <h1 style="font-weight: bold">Karya</h1>
-		  <h3>Digital Kode Telah Menyelesaikan Banyak Karya, Salah Satu nya adalah Project Yang Ada Di Bawah ini !</h3>
-		  <div class="container my-4">
-			  <!--Carousel Wrapper-->
+        </div>
+        <!--::client logo part end::-->
+        <section class="client_logo text-center">
+            <div class="container"><br><br><br>
+                <h1 style="font-weight: bold">Our <b>References</b> ! </h1>
+                <br><br><br>
+                <div class="row align-items-center">
 
-			  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                    <div class="col-lg-12">
+                        <div class="client_logo_slider owl-carousel d-flex justify-content-between">
+                            <div class="single_client_logo">
+                                <img src="img/client_logo/client_logo_1.png" alt="">
+                            </div>
+                            <div class="single_client_logo">
+                                <img src="img/client_logo/client_logo_2.png" alt="">
+                            </div>
+                            <div class="single_client_logo">
+                                <img src="img/client_logo/sk.jpg" alt="">
+                            </div>
+                            <div class="single_client_logo">
+                                <img src="img/client_logo/client_logo_3.png" alt="">
+                            </div>
+                            <div class="single_client_logo">
+                                <img src="img/client_logo/w3.jpg" height="85px;" alt="">
+                            </div>
+                            <div class="single_client_logo">
+                                <img src="img/client_logo/fc.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--::client logo part end::-->
+    </div>
+    <!--::footer_part start::-->
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#home"></a>
+                        <p style="font-size: 14px;color:gray;">Digital Kode Adalah Sebuah Startup Yang Bergerak Di Bidang Teknologi Informasi.<br>Membantu Para Pelaku Bisnis Untuk Merealisasikan dan Mendigitalisasi Bisnis Menjadi Bisnis 4.0
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <h4>Our Links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#portofolio">Portofolio</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <h4>Our Social Media</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.facebook.com/digitalkode/"><i style="font-size:24px;" class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=+6289526544405"><i style="font-size:24px;" class="fa fa-whatsapp"></i> +62 895 2654 4405</a></li>
+                            <li><a href=""><i style="font-size:24px;" class="fa fa-envelope"></i> admin@digitalkode.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="copyright_text">
+                        <P>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved
+                            <p style="color:#f7f7f7;">| This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a style="color:#f7f7f7;" href="https://colorlib.com" target="_blank">Colorlib</p></a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </P>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_icon social_icon">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--::footer_part end::-->
+    <script>
+        AOS.init();
+    </script>
 
-				  <!--Controls-->
-				  <div class="controls-top">
-					  <a class="btn-floating" style="background-color:#562FC7;padding:20px 0px 20px 0px;border-radius: 80px;" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left" style="color:white;padding:30px;"></i></a>
-					  <a class="btn-floating" style="background-color:#562FC7;padding:20px 0px 20px 0px;border-radius: 80px;" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right" style="color:white;padding:30px;"></i></a>
-				  </div>
-				  <div class="carousel-inner" role="listbox">
-
-					  <!--First slide-->
-					  <div class="carousel-item active">
-
-						  <div class="row">
-							  <div class="col-md-4">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/1.png" alt="Card image cap">
-
-									  <div class="card-body">
-										  <h4 class="card-title">Rafly's CV</h4>
-										  <p class="card-text">A Personal Portofolio Page With Lots of Features, Beautiful Effects And Information.</p>
-									  </div>
-								  </div>
-							  </div>
-
-							  <div class="col-md-4 clearfix d-none d-md-block">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/2.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">Bloggerku</h4>
-										  <p class="card-text">Bloggerku Is A Business Webpage That Developing Template And Sharing Articles About Blogger.</p>
-									  </div>
-								  </div>
-							  </div>
-
-							  <div class="col-md-4 clearfix d-none d-md-block">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/3.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">Maxgazine</h4>
-										  <p class="card-text">Maxgazine Is A Blogger Template With Best Appearance, Fast And Modern.</p>
-									  </div>
-								  </div>
-							  </div>
-						  </div>
-
-					  </div>
-					  <!--/.First slide-->
-
-					  <!--Second slide-->
-					  <div class="carousel-item">
-
-						  <div class="row">
-							  <div class="col-md-4">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/4.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">CV. Oniversal</h4>
-										  <p class="card-text">A Company Profile Website About CV. Oniversal's Company Included Mini E-commerce</p>
-									  </div>
-								  </div>
-							  </div>
-
-							  <div class="col-md-4 clearfix d-none d-md-block">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/5.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">Masign Andromeda</h4>
-										  <p class="card-text">Material Design Andromeda Is A Premium Blogger Template That Using Material Design From Google As It's Style.</p>
-									  </div>
-								  </div>
-							  </div>
-
-							  <div class="col-md-4 clearfix d-none d-md-block">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/6.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">Capcuzz</h4>
-										  <p class="card-text">Capcuzz's Website Is A Company Profile That Introduce Capcuzz, And Can Order The Product Massively Directly From Website.
-									  </div>
-								  </div>
-							  </div>
-						  </div>
-						  <!--/.Second slide-->
-						  <!--Third slide-->
-					  </div>
-					  <div class="carousel-item">
-
-						  <div class="row">
-							  <div class="col-md-4">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/7.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">Safelink Converter</h4>
-										  <p class="card-text">It's A Simple Safelink Converter That Scan The Requested Website Is Free From Virus or Not.</p>
-									  </div>
-								  </div>
-							  </div>
-
-							  <div class="col-md-4 clearfix d-none d-md-block">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/8.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">Creative Solution Crew</h4>
-										  <p class="card-text">A Dummy Website That Introduce About Freelancer Team That Develops Website, Divided by Some Division That Synergy.</p>
-									  </div>
-								  </div>
-							  </div>
-
-							  <div class="col-md-4 clearfix d-none d-md-block">
-								  <div class="card mb-2">
-									  <img class="card-img-top" src="img/portofolio/9.png" alt="Card image cap">
-									  <div class="card-body">
-										  <h4 class="card-title">SMK IT Al-Fath</h4>
-										  <p class="card-text">Simple Static School Website That Introduce About School, Excellence, Galery And Their Staff.</p>
-									  </div>
-								  </div>
-							  </div>
-						  </div>
-
-					  </div>
-					  <!--/.Third slide-->
-				  </div>
-				  <!--/.Slides-->
-			  </div>
-			  <!--/.Carousel Wrapper-->
-		  </div>
-	  </div>
-
-	  <!--::subscribe us part end::-->
-	  <section class="subscribe_part padding_bottom"> <img src="img/6.png" style="float:right;position: absolute;margin;transform:rotate(180deg);" width="300px" alt="">
-		  <div class="container">
-			  <div class="row justify-content-center">
-				  <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
-
-					  <div class="subscribe_part_text text-center">
-						  <h2>Experience <b>the most simple way</b> to <br> manage business</h2>
-						  <div class="subscribe_form">
-							  <form action="#">
-								  <div class="form-row">
-									  <div class="col-sm-9">
-										  <input type="email" class="form-control" placeholder="enter your email">
-									  </div>
-									  <div class="col-sm-3">
-										  <div class="subscribe_btn">
-											  <div class="btn_2 d-block">free trial</div>
-										  </div>
-									  </div>
-								  </div>
-							  </form>
-						  </div>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-		  <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
-	  </section>
-	  <!--::subscribe us part end::-->
-	  <div class="container" id="team">
-		  <div class="heading-title text-center">
-			  <h1 style="font-weight: bold">Our Professionals ! </h1>
-			  <p class="p-top-30 half-txt">Introducing Our Leader And Best Engineer, Let's Have A great Coffee With Them. We'll Always Waiting You For Contacting Us.</p>
-		  </div>
-		  <div class="row">
-			  <div class="col-md-4 col-sm-6 col-12" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
-				  <div class="team-member">
-					  <div class="team-img">
-						  <img src="img/fliw.jpg" width="400px" height="300px" alt="team member" class="img-responsive">
-					  </div>
-					  <div class="team-hover">
-						  <div class="desk">
-							  <h4>Hello World</h4>
-							  <p>I love to introduce myself as a hardcore Web Designer.</p>
-						  </div>
-						  <div class="s-link">
-							  <a href="#"><i class="fa fa-facebook"></i></a>
-							  <a href="#"><i class="fa fa-twitter"></i></a>
-							  <a href="#"><i class="fa fa-google-plus"></i></a>
-						  </div>
-					  </div>
-				  </div>
-				  <div class="team-title">
-					  <h5>Muhammad Rafly Indrawan</h5>
-					  <span>Co-Founder</span>
-				  </div>
-			  </div>
-			  <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-				  <div class="team-member">
-					  <div class="team-img">
-						  <img src="img/dihak.jpg" width="400px" height="300px" alt="team member" class="img-responsive">
-					  </div>
-					  <div class="team-hover">
-						  <div class="desk">
-							  <h4>Hi There !</h4>
-							  <p>I love to introduce myself as a hardcore Web Designer.</p>
-						  </div>
-						  <div class="s-link">
-							  <a href="#"><i class="fa fa-facebook"></i></a>
-							  <a href="#"><i class="fa fa-twitter"></i></a>
-							  <a href="#"><i class="fa fa-google-plus"></i></a>
-						  </div>
-					  </div>
-				  </div>
-				  <div class="team-title">
-					  <h5>Dihak M N A</h5>
-					  <span>Founder & CEO </span>
-				  </div>
-			  </div>
-			  <div class="col-md-4 col-sm-6 col-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
-				  <div class="team-member">
-					  <div class="team-img">
-						  <img src="img/fuad.jpg" width="400px" height="300px" alt="team member" class="img-responsive">
-					  </div>
-					  <div class="team-hover">
-						  <div class="desk">
-							  <h4>I love to design</h4>
-							  <p>I love to introduce myself as a hardcore Web Designer.</p>
-						  </div>
-						  <div class="s-link">
-							  <a href="#"><i class="fa fa-facebook"></i></a>
-							  <a href="#"><i class="fa fa-twitter"></i></a>
-							  <a href="#"><i class="fa fa-google-plus"></i></a>
-						  </div>
-					  </div>
-				  </div>
-				  <div class="team-title">
-					  <h5>Muhammad Nur Fuad</h5>
-					  <span>Frontend Developer Expert</span>
-				  </div>
-			  </div>
-
-		  </div>
-
-	  </div>
-	  <!--::client logo part end::-->
-	  <section class="client_logo text-center">
-		  <div class="container"><br><br><br>
-			  <h1 style="font-weight: bold">Our References ! </h1>
-			  <br><br><br>
-			  <div class="row align-items-center">
-
-				  <div class="col-lg-12">
-					  <div class="client_logo_slider owl-carousel d-flex justify-content-between">
-						  <div class="single_client_logo">
-							  <img src="img/client_logo/client_logo_1.png" alt="">
-						  </div>
-						  <div class="single_client_logo">
-							  <img src="img/client_logo/client_logo_2.png" alt="">
-						  </div>
-						  <div class="single_client_logo">
-							  <img src="img/client_logo/sk.jpg" alt="">
-						  </div>
-						  <div class="single_client_logo">
-							  <img src="img/client_logo/client_logo_3.png" alt="">
-						  </div>
-						  <div class="single_client_logo">
-							  <img src="img/client_logo/w3.jpg" height="85px;" alt="">
-						  </div>
-						  <div class="single_client_logo">
-							  <img src="img/client_logo/fc.png" alt="">
-						  </div>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-	  </section>
-	  <!--::client logo part end::-->
-
-	  <!--::footer_part start::-->
-	  <footer class="footer_part">
-		  <div class="container">
-			  <div class="row">
-				  <div class="col-sm-8 col-md-4 col-lg-4">
-					  <div class="single_footer_part">
-						  <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#home"></a>
-						  <p style="font-size: 14px;color:gray;">Digital Kode Adalah Sebuah Startup Yang Bergerak Di Bidang Teknologi Informasi.<br>Membantu Para Pelaku Bisnis Untuk Merealisasikan dan Mendigitalisasi Bisnis Menjadi Bisnis 4.0
-						  </p>
-					  </div>
-				  </div>
-				  <div class="col-sm-8 col-md-4 col-lg-4">
-					  <div class="single_footer_part">
-						  <h4>Our Links</h4>
-						  <ul class="list-unstyled">
-							  <li><a href="#home">Home</a></li>
-							  <li><a href="#service">Service</a></li>
-							  <li><a href="#portofolio">Portofolio</a></li>
-							  <li><a href="#team">Our Team</a></li>
-						  </ul>
-					  </div>
-				  </div>
-				  <div class="col-sm-8 col-md-4 col-lg-4">
-					  <div class="single_footer_part">
-						  <h4>Our Social Media</h4>
-						  <ul class="list-unstyled">
-							  <li><a href="https://www.facebook.com/digitalkode/"><i style="font-size:24px;" class="fa fa-facebook"></i> Facebook</a></li>
-							  <li><a href="https://api.whatsapp.com/send?phone=+6289526544405"><i style="font-size:24px;" class="fa fa-whatsapp"></i> +62 895 2654 4405</a></li>
-							  <li><a href=""><i style="font-size:24px;" class="fa fa-envelope"></i> admin@digitalkode.com</a></li>
-						  </ul>
-					  </div>
-				  </div>
-			  </div>
-			  <hr>
-			  <div class="row">
-				  <div class="col-lg-8">
-					  <div class="copyright_text">
-						  <P>
-						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						  Copyright &copy;
-						  <script>
-							  document.write(new Date().getFullYear());
-						  </script> All rights reserved
-						  <p style="color:white;">| This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a style="color:white;" href="https://colorlib.com" target="_blank">Colorlib</p></a>
-						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						  </P>
-					  </div>
-				  </div>
-				  <div class="col-lg-4">
-					  <div class="footer_icon social_icon">
-						  <ul class="list-unstyled">
-							  <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
-							  <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
-							  <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
-							  <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
-						  </ul>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-	  </footer>
-	  <!--::footer_part end::-->
-	  <script>
-		  AOS.init();
-	  </script>
-
-	  <!-- jquery plugins here-->
-	  <script src="js/jquery-1.12.1.min.js"></script>
-	  <!-- popper js -->
-	  <script src="js/popper.min.js"></script>
-	  <!-- bootstrap js -->
-	  <script src="js/bootstrap.min.js"></script>
-	  <!-- easing js -->
-	  <script src="js/jquery.magnific-popup.js"></script>
-	  <!-- swiper js -->
-	  <script src="js/swiper.min.js"></script>
-	  <!-- swiper js -->
-	  <script src="js/masonry.pkgd.js"></script>
-	  <!-- particles js -->
-	  <script src="js/owl.carousel.min.js"></script>
-	  <script src="js/jquery.nice-select.min.js"></script>
-	  <!-- slick js -->
-	  <script src="js/slick.min.js"></script>
-	  <script src="js/jquery.counterup.min.js"></script>
-	  <script src="js/waypoints.min.js"></script>
-	  <script src="js/contact.js"></script>
-	  <script src="js/jquery.ajaxchimp.min.js"></script>
-	  <script src="js/jquery.form.js"></script>
-	  <script src="js/jquery.validate.min.js"></script>
-	  <script src="js/mail-script.js"></script>
-	  <!-- custom js -->
-	  <script src="js/custom.js"></script>
-	</body>
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
 
 </html
