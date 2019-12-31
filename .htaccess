@@ -1,0 +1,31 @@
+# 
+# Powered by Muhammad Nur Fuad (illvart)
+#
+
+# Force non-www
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.digitalkode\.com [NC]
+RewriteRule ^(.*)$ http://digitalkode.com/$1 [L,R=301]
+# Force HTTPS
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+# Remove Trailing Slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+# Options
+<Files ~ "\.(html)$">
+Header set Content-Type "text/html; charset=utf-8"
+Header set X-UA-Compatible "IE=Edge"
+</Files>
+# Response Headers
+<IfModule mod_headers.c>
+Header unset ETag
+Header always set Server "digitalkode.com"
+Header set X-Powered-By "Node.js"
+Header set X-DNS-Prefetch-Control "on"
+Header set X-Frame-Options "DENY"
+Header set X-Content-Type-Options "nosniff"
+Header set Referrer-Policy "no-referrer-when-downgrade"
+Header set Feature-Policy "camera 'none';geolocation 'none';microphone 'none'"
+</IfModule>
